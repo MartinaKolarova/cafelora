@@ -1,6 +1,8 @@
+import './Header.css';
+
 export const Header = () => {
   return (
-    <header>
+    <header classId="header">
       <div className="header__content container">
         <div className="site-logo"></div>
 

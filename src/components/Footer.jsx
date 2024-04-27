@@ -1,8 +1,8 @@
-import "./Footer.css";
+import './Footer.css';
 
 export const Footer = () => {
   return (
-    <footer>
+    <footer classId="footer">
       <div className="container">
         <div className="footer__content">
           Café Lóra je tréningový projekt v rámci Czechitas kurzu JavaScript 2
