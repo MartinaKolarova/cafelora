@@ -20,3 +20,12 @@ document.querySelector("#root").innerHTML = render(
     <Footer />
   </div>
 );
+
+const menuSwitch = () => {
+  const navElement = document.querySelector(".rollout-nav");
+  navElement.classList.toggle("nav-closed");
+};
+
+document.querySelector(".nav-btn").addEventListener("click", menuSwitch);
+
+document.querySelector(".rollout-nav").addEventListener("click", menuSwitch);
