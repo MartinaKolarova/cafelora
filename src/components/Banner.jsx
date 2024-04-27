@@ -1,8 +1,8 @@
-import './Banner.css';
+import "./Banner.css";
 
 export const Banner = () => {
   return (
-    <section class id="banner" className="banner">
+    <section classID="banner" className="banner">
       <div className="container">
         <div className="banner__content">
           <h1>Přijď to ochutnat!</h1>
