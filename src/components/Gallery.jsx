@@ -2,7 +2,7 @@ import './Gallery.css';
 
 export const Gallery = () => {
   return (
-    <section classId="gallery" className="gallery">
+    <section classID="gallery" className="gallery">
       <div className="container">
         <div className="gallery__content">
           <h2>Nově otevřeno!</h2>
