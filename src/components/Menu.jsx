@@ -1,5 +1,5 @@
-import './Menu.css';
-import { Drink } from './Drink';
+import "./Menu.css";
+import { Drink } from "./Drink";
 
 /*Komponentě Menu přidejte prop s názvem drinks, skrz kterou komponentě předáme stažený seznam nápojů. Zobrazte tento seznam uvnitř prvku drinks-list za využití komponenty Drink.
  */
