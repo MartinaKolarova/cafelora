@@ -1,16 +1,15 @@
-import "./Drink.css";
-import { Layer } from "./Layer";
+import './Drink.css';
+import { Layer } from './Layer';
 
 export const Drink = ({ name, image, layers }) => {
   const layerElements = layers.map((layer) => (
     <Layer key={layer.label} color={layer.color} label={layer.label} />
   ));
-
   return (
     <div className="drink">
       <div className="drink__product">
         <div className="drink__cup">
-          <img src={image} />
+          <img src={'http://localhost:4000' + image} />
         </div>
         <div className="drink__info">
           <h3>{name}</h3>
