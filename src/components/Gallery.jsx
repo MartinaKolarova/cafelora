@@ -1,6 +1,6 @@
 import "./Gallery.css";
 
-export const GalleryInfo = () => {
+export const Gallery = () => {
   return (
     <section className="gallery">
       <div className="container">
